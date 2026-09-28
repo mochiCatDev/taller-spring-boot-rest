@@ -6,6 +6,7 @@ public class Estudiante {
 	private String apellido;
 
 	public Estudiante() {
+		super();
 	}
 
 	public Estudiante(String cedula, String nombre, String apellido) {
@@ -13,13 +14,12 @@ public class Estudiante {
 		this.cedula = cedula;
 		this.nombre = nombre;
 		this.apellido = apellido;
-
 	}
 
 	public String getCedula() {
 		return cedula;
 	}
-
+	
 	public void setCedula(String cedula) {
 		this.cedula = cedula;
 	}

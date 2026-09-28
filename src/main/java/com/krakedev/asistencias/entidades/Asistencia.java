@@ -8,7 +8,9 @@ public class Asistencia {
 	private LocalDateTime fechaHoraRegistro;
 	private String estado; // P -> present, A -> assent
 	
-	public Asistencia() {}
+	public Asistencia() {
+		super();
+	}
 
 	public Asistencia(LocalDate fechaClase, LocalDateTime fechaHoraRegistro, String estado) {
 		super();
