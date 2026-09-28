@@ -9,6 +9,7 @@ public class Estudiante {
 	}
 
 	public Estudiante(String cedula, String nombre, String apellido) {
+		super();
 		this.cedula = cedula;
 		this.nombre = nombre;
 		this.apellido = apellido;
